@@ -91,8 +91,9 @@ export default {
     },
 
     search() {
+      this.userList = [];
+      if (this.valid === false) return;
       this.loading = true;
-      this.userList.length = 0;
       if (VueCookies.get('access_token') !== null) {
         this.getUsers();
         return;
