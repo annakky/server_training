@@ -24,9 +24,9 @@ npm install
 3. 실행
 
 ```shell
-$~/server node app.js
+$~/server> node app.js
 
-$~/server-vue npm run serve
+$~/server-vue> npm run serve
 ```
 
 데이터베이스 설정에 문제가 없다면 정상적으로 실행 될 것이다.
